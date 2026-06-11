@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# AisleIQ — AI-Powered Snack Portfolio Intelligence for FMCG
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**A PM case study prototype built around PepsiCo's shift toward health-conscious snacking and the consumer segmentation problem that comes with it.**
 
-## Available Scripts
+🔗 **[View Live Demo](https://NikitaSuryawanshi18.github.io/AisleIQ-Case-Study-For-Pepsico)**
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## What is AisleIQ?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+PepsiCo is making the right bets on healthy snacking — acquiring Siete, launching Doritos Protein, expanding SunChips Fiber. But they have no unified intelligence layer to answer: *for which consumer, in which format, at which price point, should we be pushing which snack?*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+AisleIQ is that tool. It maps PepsiCo's snack portfolio against consumer health profiles, budget sensitivity, functional needs, and purchase format preferences — surfacing the right SKU for the right person, and flagging where the portfolio has no good answer at all.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- **Portfolio Overview** — KPI cards, revenue by tier, consumer shift risk flags, at-risk classic SKUs
+- **Consumer Profile Explorer** — Build a multidimensional consumer profile (budget, health consciousness, functional need, purchase format) and get ranked SKU matches with match scores
+- **Pack & Price Intelligence** — Full SKU table showing available formats, best-fit formats, price per oz, and format alignment flags
+- **Portfolio Gap Finder** — Visual map of consumer need state coverage, critical innovation white spaces, and closest existing SKUs to each gap
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Health Score Methodology
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Each SKU is scored 0–100 based on: protein content, fiber content, sodium level, artificial ingredients, and clean label status.
 
-### `npm run eject`
+**Consumer match scoring** uses a weighted formula across four profile dimensions:
+- Health consciousness fit — 30%
+- Budget sensitivity fit — 25%
+- Functional need fit — 20%
+- Purchase format availability — 25%
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Running Locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Prerequisites:** Node.js v16+
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/NikitaSuryawanshi18/AisleIQ-Case-Study-For-Pepsico.git
+cd AisleIQ-Case-Study-For-Pepsico
+npm install
+npm start
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deploying to GitHub Pages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm run deploy
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Tech Stack
 
-### Analyzing the Bundle Size
+- **React 18** — UI framework
+- **Recharts** — Charts, radar, bar, and line charts
+- **CSS Variables** — Theming and design tokens
+- **GitHub Pages** — Hosting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+No backend. No API keys. Fully static and free to host.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## About This Case Study
 
-### Advanced Configuration
+Built as part of a PM portfolio to demonstrate product thinking on a real, material business problem. All SKU data is grounded in real PepsiCo brands and public information. Revenue figures and scores are modeled for demonstration purposes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Built by:** Nikita Suryawanshi
+**Role:** Product Management Portfolio Project
+**Related project:** [ShelfIQ — Nestlé SKU Rationalization](https://github.com/NikitaSuryawanshi18/ShelfIQ---Case-Study-for-Nestle)
