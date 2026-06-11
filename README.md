@@ -4,8 +4,6 @@ A PM case study prototype built around PepsiCo's shift toward health-conscious s
 
 **Live Demo:** https://NikitaSuryawanshi18.github.io/AisleIQ-Case-Study-For-Pepsico
 
-**Related Project:** [ShelfIQ: Nestlé SKU Rationalization](https://github.com/NikitaSuryawanshi18/ShelfIQ---Case-Study-for-Nestle)
-
 ---
 
 ## What is AisleIQ?
