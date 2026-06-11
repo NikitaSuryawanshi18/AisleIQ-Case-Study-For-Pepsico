@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AisleIQ-Case-Study-For-Pepsico/static/css/main.ada2a77b.css",
+    "main.js": "/AisleIQ-Case-Study-For-Pepsico/static/js/main.5c98b402.js",
+    "index.html": "/AisleIQ-Case-Study-For-Pepsico/index.html",
+    "main.ada2a77b.css.map": "/AisleIQ-Case-Study-For-Pepsico/static/css/main.ada2a77b.css.map",
+    "main.5c98b402.js.map": "/AisleIQ-Case-Study-For-Pepsico/static/js/main.5c98b402.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ada2a77b.css",
+    "static/js/main.5c98b402.js"
+  ]
+}
